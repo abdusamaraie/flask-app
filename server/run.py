@@ -7,4 +7,4 @@ def index():
     return "hello flask"
 
 if __name__ == "__main__":
-    app.run('127.0.0.1','5000', debug=True)
+    app.run('0.0.0.0','5000', debug=True)
